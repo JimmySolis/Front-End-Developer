@@ -1,0 +1,107 @@
+
+.containerFullPage{
+    padding: 10px;
+    margin: 10px;
+}
+
+.containerFrontGrid{
+    margin: 50px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.mrk{
+    background-image: url(../img/MrkLogo.PNG);
+    background-color: rgb(241, 241, 241);
+    background-position: top;
+    background-position: contain;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.mrk:hover{
+    background-image: url(../img/mrkGIF.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+.blg{
+    background-image: url(../img/BlomingNewGimpFlare.png);
+    background-color: antiquewhite;
+    background-position: top;
+    background-size:contain;
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.blg:hover{
+    background-image: url(../img/bloominglggif.gif);
+    background-size: cover;
+}
+
+.del{
+    background-image: url(../img/paw.png);
+    background-color: rgb(189, 167, 228);
+    background-position: top;
+    background-size:contain;
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.del:hover{
+    background-image: url(../img/delVid.gif);
+    background-size: cover;
+}
+
+.quz{
+    background-image: url(../img/cartoon.png);
+    background-color: rgb(189, 167, 228);
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.quz:hover{
+    background-image: url(../img/quizgif.gif);
+    background-size: cover;
+}
+
+.wtw{
+    background-image: url(../img/sun.png);
+    background-color: rgb(218, 209, 251);
+    background-position: top;
+    background-size: 75%;
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.wtw:hover{
+    background-image: url(../img/wtw.gif);
+    background-size: cover;
+}
+
+.old{
+    background-image: url(../img/enter.png);
+    background-color: rgb(218, 209, 251);
+    background-position: top;
+    background-size:contain;
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.old:hover{
+    background-image: url(../img/oldpro.gif);
+    background-size: cover;
+}

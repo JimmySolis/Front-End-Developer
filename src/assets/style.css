@@ -1,0 +1,87 @@
+html {
+    height: 89%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    box-shadow: 5px 5px 100px rgb(70, 75, 34) inset;
+    border: 30px  black double;
+    margin: 25px;   
+    background-color: rgb(176, 226, 187);
+    color: azure;
+}
+
+.containerHome{
+ padding: 10px;
+ margin: 10px;
+}
+
+.containerHomeGrid{
+    margin: 50px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.btnStyle{
+    overflow: hidden;
+    width: 90%;
+    height: 300px;
+    color: rgb(241, 241, 241);
+    font-size: 120px;
+    background-color: transparent;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+    font-family: 'VT323', monospace;
+}
+
+.btnOne{
+    background: url("../img/bg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(241, 241, 241);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.btnOne:hover{
+    height: 305px;
+    transition: .5s;
+    box-shadow: 0px 20px 20px 10px rgba(191, 176, 255, 0.8);
+}
+
+.btnTwo{
+    background: url("../img/back-min.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.btnTwo:hover{
+    height: 305px;
+    transition: .5s;
+    box-shadow: 0px 20px 20px 10px rgba(191, 176, 255, 18);
+}
+
+.btnThree{
+    background-color: rgb(218, 182, 5);
+}
+
+.btnThree:hover{
+    height: 305px;
+    transition: .5s;
+    box-shadow: 0px 20px 20px 10px rgba(191, 176, 255, 18);
+}
+    
+.btnFour{
+    background-color: rgb(222, 33, 33);
+}
+    
+.btnFour:hover{
+    height: 305px;
+    transition: .5s;
+    box-shadow: 0px 20px 20px 10px rgba(191, 176, 255, 18);
+}
+    
+    

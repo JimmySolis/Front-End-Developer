@@ -1,8 +1,15 @@
 import React from 'react';
 import delGIF from "../../img/oldpro.gif";
+import { motion } from "framer-motion";
 
 const oldPage = () => {
   return (
+    <motion.div 
+    initial={{scaleY:0}} 
+    animate={{ scaleY:1 }} 
+    exit={{ scaleY: 0 }} 
+    transition={{ duration: .3 }}
+    >
     <div style={{ display: 'flex'}}>
 
       <div style={{ width: '40%', padding: '80px', marginTop: '24px'}}>
@@ -52,6 +59,7 @@ const oldPage = () => {
 
       </div>
     </div>
+    </motion.div>
   );
 };
 

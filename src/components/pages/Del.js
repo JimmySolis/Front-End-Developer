@@ -1,8 +1,15 @@
 import React from 'react';
 import delGIF from "../../img/delVid.gif";
+import { motion } from "framer-motion";
 
 const delPage = () => {
   return (
+    <motion.div 
+    initial={{scaleY:0}} 
+    animate={{ scaleY:1 }} 
+    exit={{ scaleY: 0 }} 
+    transition={{ duration: .3 }}
+    >
     <div style={{ display: 'flex'}}>
 
       <div style={{ width: '40%', padding: '80px', marginTop: '32px'}}>
@@ -49,6 +56,7 @@ const delPage = () => {
 
       </div>
     </div>
+    </motion.div>
   );
 };
 

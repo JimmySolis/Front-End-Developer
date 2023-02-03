@@ -1,8 +1,15 @@
 import React from 'react';
-import blgGIF from "../../img/bloominglggif.gif";
+import blgGIF from "../../img/blgVidPage.gif";
+import { motion } from "framer-motion";
 
 const blgPage = () => {
   return (
+    <motion.div 
+    initial={{scaleY:0}} 
+    animate={{ scaleY:1 }} 
+    exit={{ scaleY: 0 }} 
+    transition={{ duration: .3 }}
+    >
     <div style={{ display: 'flex'}}>
 
       <div style={{ width: '40%', padding: '80px', marginTop: '32px'}}>
@@ -25,11 +32,11 @@ const blgPage = () => {
         </div>
 
         <div>
-        <h2 style={{color:'black', paddingRight: '64px', fontFamily:'Chakra Petch'}}> In order to have some feedback while the page is loading, I designed a preloader that disappears when all the images have loaded.
-             The client wanted a minimalistic website to display some of his photography styles.
-              My job was to display each collection in a unique and staggered way.
-               This layout gives the viewers a pleasant experience when visiting his site.
-
+        <h2 style={{color:'black', paddingRight: '64px', fontFamily:'Chakra Petch'}}> 
+        For this website we are trying to emphasize the type of labor. The client wanted me to develop some eye candy for his new company.
+        He wanted to make people see that although he was just starting out he has asperations to be clean and professional.
+        The task was difficult becasue he did not have any photos other than his cetificates but with a neat website he feels confident that he will have
+        many customers soon. And as of now he is doing well.  
           </h2>
         </div>
 
@@ -39,14 +46,14 @@ const blgPage = () => {
 
         <div>
             <h2 style={{color:'black', paddingRight: '64px', fontFamily:'Chakra Petch'}}>
-                I approached the creation of the website with a minimalist design in mind.
-                I carefully selected a color palette that was understated and complemented the simple design. 
-                My client was thrilled with the final result and appreciated the clean and modern look of the site. 
-                The process was a smooth one as I worked closely with the client to ensure that their vision was realized. </h2>
+            When I set out to do this project I came up with the idea of a perfect lawn to Demonstrate what his comapny was aiming to do.
+            He loved the idea and with some pretty colors that complement the green grass I began to build the lay out. He didnt want to many pages. Therefore, I sticked to a menu that only had about 
+            three options that alternate as clicked. He liked the simplicity and agreed to keep me updated when he had Enough images for a galley.             </h2>
         </div>
 
       </div>
     </div>
+    </motion.div>
   );
 };
 

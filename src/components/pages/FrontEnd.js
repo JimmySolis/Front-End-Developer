@@ -13,17 +13,17 @@ function frontEnd (){
             <div className="containerFullPage">
                 <div className="containerFrontGrid">
 
-            <button className="mrk"></button>
+           <Link to={"/Mrk"}> <button className="mrk"></button> </Link> 
 
-            <button className="blg"></button>
+           <Link to={"/Blg"}> <button className="blg"></button> </Link>  
 
-            <button className="del"></button>
+           <Link to={"/Del"} > <button className="del"></button> </Link> 
 
-            <button className="old"></button>
+           <Link to={"/Old"}> <button className="old"></button> </Link>  
 
-            <button className="wtw"></button>
+           <Link to={"/Wtw"}> <button className="wtw"></button> </Link> 
 
-            <button className="quz"></button>
+           <Link to={"/Quz"}> <button className="quz"></button> </Link>  
 
            
 

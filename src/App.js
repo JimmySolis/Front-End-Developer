@@ -1,5 +1,6 @@
 import "./assets/style.css";
 import "./assets/front.css";
+import "./assets/back.css";
 import { Route, Routes, useLocation} from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import Home from "./components/pages/Home";
@@ -13,6 +14,10 @@ import Mrk from "./components/pages/Mrk";
 import Old from "./components/pages/Old";
 import Quz from "./components/pages/Quz";
 import Wtw from "./components/pages/Wtw";
+import MySocial from "./components/pages/backEndMySocial";
+import Listed from "./components/pages/backEndListed";
+import BackOfShop from "./components/pages/backEndBackOfShop";
+import TechBlog from "./components/pages/backEndTecBlogging";
 
 
 
@@ -54,6 +59,19 @@ const location = useLocation();
 
     <Route path="/Wtw" element={<Wtw />}>
     </Route>
+
+    <Route path="/MySocial" element={<MySocial />}>
+    </Route>
+
+    <Route path="/Listed" element={<Listed />}>
+    </Route>
+
+    <Route path="/TechBlog" element={<TechBlog />}>
+    </Route>
+
+    <Route path="/BackOfShop" element={<BackOfShop />}>
+    </Route>
+    
     
     </Routes>
     </AnimatePresence>

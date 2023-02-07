@@ -151,20 +151,31 @@
       }
 }
 
-/* Iphon 13pro */
+/* Iphon 13pro max */
 @media screen and (max-width: 428px) {
 
     html {
-        height: 2350px;
-        width: 100%;
+        height: 2700px;
+        width: auto;
         overflow-y: scroll;
-        overflow-x:scroll;
+        overflow-x: hidden;
     }
-   
+
+    .aboutSection{
+      width: 205px;
+      margin: 8px;
+      padding: 40px;
+    }
+
     .aboutGrid{
         display: grid;
         grid-template-columns: 1fr;
         
+      }
+
+      .resumeSection{
+        width: 235px;
+        margin: 8px;
       }
 
       .resumeSectionDivison{
@@ -172,36 +183,78 @@
         grid-template-columns: 1fr;
       }
 
-      .picSize{
-        width: 100px;
+      .linkSection{
+        width: 235px;
+        margin: 8px;
+        margin-top: 40px;
       }
+
+      .picSize{
+        width: 80px;
+      }
+
+      .downloadButton{
+        height: 62px;
+        font-size: 24px;
+    }
+
+    .downloadButton:hover{
+      box-shadow: 0 0 30px #1B98E0;
+      height: 62px;
+      transition: 1s;
+  
+  }
     
     
     }
 
     /* Iphone xr */
     @media screen and (max-width: 414px) {
-      
+      html {
+        height: 3000px;
+        width: auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+      .aboutSection{
+        width: 190px;
+        margin: 8px;
+        padding: 40px;
+      }
+
+      .resumeSection{
+        width: 220px;
+        margin: 8px;
+      }
+
+      .linkSection{
+        width: 220px;
+        margin: 8px;
+        margin-top: 40px;
+      }
+
       }
 
 
-      /* iphone 12 */
+      /* iphone 12 pro */
 @media screen and (max-width: 393px) {
     html {
-        height: 2600px;
-        width: 100%;
+        height: 3150px;
+        width: auto;
         overflow-y: scroll;
-        overflow-x: scroll;
+        overflow-x: hidden;
     }
 
     .aboutSection{
-        margin: 32px;
+        width: 170px;
+        margin: 8px;
         padding: 40px;
       }
     
       .resumeSection{
-        width: 260px;
-        margin: 32px;
+        width: 200px;
+        margin: 8px;
       }
     
       .resumeSectionDivison{
@@ -210,15 +263,27 @@
       }
 
       .linkSection{
-        width: 260px;
-        margin: 32px;
-        margin-top: 70px;
+        width: 200px;
+        margin: 8px;
+        margin-top: 40px;
       }
 
       .picSize{
-        width: 100px;
+        width: 80px;
         
       }
+
+      .downloadButton{
+        height: 62px;
+        font-size: 24px;
+    }
+
+    .downloadButton:hover{
+      box-shadow: 0 0 30px #1B98E0;
+      height: 62px;
+      transition: 1s;
+  
+  }
     
   }
     /* Samsung galaxy S8+*/
@@ -274,21 +339,21 @@
 @media screen and (max-width: 320px) {
 
     html {
-        height: 3400px;
-        width: 100%;
+        height: 3250px;
+        width: 270px;
         overflow-y: scroll;
         overflow-x:scroll;
     }
 
     .aboutSection{
         width: 165px;
-        margin: 32px;
+        margin: 8px;
         padding: 40px;
       }
 
       .resumeSection{
         width: 195px;
-        margin: 32px;
+        margin: 8px;
       }
 
       .downloadButton{
@@ -302,8 +367,8 @@
 
     .linkSection{
         width: 200px;
-        margin: 32px;
-        margin-top: 70px;
+        margin: 8px;
+        margin-top: 40px;
       }
 
      .picSize{
@@ -312,4 +377,12 @@
       }
 
 
+}
+
+@media screen and (max-width: 280px) {
+  .aboutSection{
+    width: 165px;
+    margin: px;
+    padding: 40px;
+  }
 }

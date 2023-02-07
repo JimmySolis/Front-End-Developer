@@ -1,6 +1,7 @@
 import "./assets/style.css";
 import "./assets/front.css";
 import "./assets/back.css";
+import "./assets/about.css"
 import { Route, Routes, useLocation} from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import Home from "./components/pages/Home";

@@ -1,4 +1,4 @@
-html {
+body {
     height: 89%;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -142,6 +142,43 @@ button[type="submit"] {
     
 /* Iphon 13pro max */
 @media screen and (max-width: 428px) {
+    body {
+        height: 1000px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        box-shadow: 5px 5px 100px rgb(70, 75, 34) inset;
+        border: 30px  black double;
+        margin: 2px;   
+        background-color: rgb(176, 226, 187);
+        color: azure;
+    }
+
+    .containerHomeGrid{
+        margin: 0px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 50px;
+    }
+
+    .btnOne{
+        background-size: 355px;
+        background-position: center;
+        background-color: rgb(47, 5, 61);
+    }
+
+    .btnTwo{
+        background-size: 325px;
+        background-position: center;
+        background-color: rgb(29, 58, 15);
+    }
+
+    .btnStyle{
+        width: 310px;
+        font-size: 90px;
+        margin-top: 16px;
+    }
+
 
 }
     

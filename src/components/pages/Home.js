@@ -14,8 +14,8 @@ function Home (){
             <div className="containerHomeGrid">
                 <Link to="/FrontEnd"> <button className="btnStyle btnOne"></button> </Link>
                 <Link to="/BackEnd"> <button className="btnStyle btnTwo"></button> </Link> 
-                <Link to="/Contact"> <button className="btnStyle btnThree">Contact</button> </Link>
-                <Link to="/About">  <button className="btnStyle btnFour"> About Me  </button></Link>
+                <Link to="/Contact"> <button className="btnStyle btnThree"> <p className="textSize"> Contact </p>  </button> </Link>
+                <Link to="/About">  <button className="btnStyle btnFour"> <p className="textSize"> About Me </p>  </button></Link>
             </div>
         </div>
         </motion.div>

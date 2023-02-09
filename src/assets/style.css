@@ -28,7 +28,6 @@ body {
     width: 90%;
     height: 300px;
     color: rgb(241, 241, 241);
-    font-size: 120px;
     background-color: transparent;
     border-radius: 25px;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
@@ -94,6 +93,10 @@ button[type="submit"] {
     animation: blastoff 1s linear;
   }
   
+.textSize{
+    font-size: 70px;
+  }
+
   /* @keyframes blastoff {
     from {
       transform: translateY(0);
@@ -174,9 +177,9 @@ button[type="submit"] {
 
     .btnStyle{
         width: 310px;
-        font-size: 90px;
         margin-top: 16px;
     }
+
 
 
 }

@@ -7,12 +7,14 @@ import linkedin from "../../img/linkIN.png";
 
 const about = () => {
 
+    window.scrollTo(0, 0)
+
     return (
         <motion.div 
         initial={{scaleY:0}} 
         animate={{ scaleY:1 }} 
         exit={{ scaleY: 0 }} 
-        transition={{ duration: .3 }}
+        transition={{ duration: .6 }}
         >
         <div>
             <div className="aboutGrid">

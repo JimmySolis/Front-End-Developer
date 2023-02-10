@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 function Home (){
+    window.scrollTo(0, 0)
     return (
         <motion.div 
         initial={{opacity:0}} 

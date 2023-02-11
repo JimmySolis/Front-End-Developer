@@ -1,0 +1,171 @@
+body {
+    height: 860px;
+}
+
+.contactDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.contactDivInner{
+    background: linear-gradient(to bottom, rgb(176, 226, 187), rgb(241, 241, 241));
+    margin-top: 200px ;
+    padding:  20px ; 
+    border-radius:  10px ;
+    box-Shadow:  0 0 10px black ; 
+    display: flex ;
+    justify-Content: center; 
+    width: 50% ;
+}
+
+.h1Style{
+    color: black;
+}
+
+
+.name{
+    margin-bottom: 16px; 
+    padding: 20px; 
+    border-radius: 10px;
+    width: 500px
+}
+
+.email{
+    margin-bottom: 16px; 
+    padding: 20px; 
+    border-radius: 10px;
+     width: 500px;
+}
+
+.message{
+    margin-bottom: 16px;
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+
+
+/* responsive */
+@media screen and (max-width: 1440px) {
+
+}
+
+
+/* responsive */
+@media screen and (max-width: 1024px) {
+
+}
+
+
+/* sufrace pro 7 */
+@media screen and (max-width: 912px) {
+
+}
+
+  
+/* Ipad Air */
+@media screen and (max-width: 820px) {
+
+}
+  
+
+/* Ipad mini */
+@media screen and (max-width: 768px) {
+
+}
+
+  
+/* surfaxe duo */
+@media screen and (max-width: 540px) {
+
+}
+
+  
+/* Iphon 13pro max */
+@media screen and (max-width: 428px) {
+    body{
+        height: auto;
+        width: auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .contactDivInner{
+        background: linear-gradient(to bottom, rgb(176, 226, 187), rgb(241, 241, 241));
+        margin: 20px;
+        margin-top: 200px;
+        margin-bottom: 263px;
+        padding:  20px; 
+        border-radius:  10px ;
+        box-Shadow:  0 0 10px black ; 
+        display: block ;
+        justify-Content: center; 
+        width: auto;
+    }
+
+    .h1Style{
+        color: black;
+    }
+    
+    
+    .name{
+        margin-bottom: 16px; 
+        padding: 20px; 
+        border-radius: 10px;
+        width: 200px;
+    }
+    
+    .email{
+        margin-bottom: 16px; 
+        padding: 20px; 
+        border-radius: 10px;
+         width: 200px;
+    }
+    
+    .message{
+        margin-bottom: 16px;
+        padding: 20px;
+        border-radius: 10px; 
+        width: 200px;
+    }
+}
+  
+/* Iphone xr */
+@media screen and (max-width: 414px) {
+
+}
+
+  
+/* iphone 12 pro */
+@media screen and (max-width: 393px) {
+
+}
+
+/* Samsung galaxy S8+*/
+@media screen and (max-width: 360px) {
+
+}
+
+  
+/* Samsung galaxy S8+*/
+@media screen and (max-width: 360px) {
+
+}
+  
+
+/* pixel 4 */
+@media screen and (max-width: 353px) {
+
+}
+
+  
+/* Galaxy S9+ */
+@media screen and (max-width: 320px) {
+
+}
+  
+  
+@media screen and (max-width: 280px) {
+
+}
+  

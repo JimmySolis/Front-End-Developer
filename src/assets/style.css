@@ -1,5 +1,5 @@
 body {
-    height: 89%;
+    height: auto;
     overflow-y: hidden;
     overflow-x: hidden;
     box-shadow: 5px 5px 100px rgb(70, 75, 34) inset;

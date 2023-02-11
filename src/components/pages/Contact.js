@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "emailjs-com"; 
+import "../../assets/contact.css"
 
 const ContactForm = () => {
   const [name, setName] = useState("");
@@ -31,23 +32,15 @@ const ContactForm = () => {
     exit={{ opacity: 0 }} 
     transition={{ delay: .3 }}
     >
-    <div style={{display:"flex", justifyContent:"center"}}>
-    <div style={{     
-          background: "linear-gradient(to bottom, rgb(176, 226, 187), rgb(241, 241, 241))",
-          marginTop:"200px", 
-          padding: "20px", 
-          borderRadius: "10px", 
-          boxShadow: "0 0 10px black", 
-          display:"flex", 
-          justifyContent:"center", 
-          width:"50%"}}>
+    <div className="contactDiv">
+    <div  className="contactDivInner" >
         
       <form onSubmit={handleSubmit}>
         <div>
-            <h1 style={{color:"black"}}>Send me an Email...</h1>
+            <h1 className="h1Style">Send me an Email...</h1>
           <label htmlFor="name"></label>
           <input
-           style={{marginBottom:"16px", padding: "20px", borderRadius: "10px", width:"500px" }}
+           className="name"
             type="text"
             placeholder="Name"
             id="name"
@@ -60,7 +53,7 @@ const ContactForm = () => {
         <div>
           <label htmlFor="email"></label>
           <input
-           style={{ marginBottom:"16px", padding: "20px", borderRadius: "10px", width:"500px"}}
+            className="email"
             type="email"
             placeholder="Email"
             id="email"
@@ -73,7 +66,7 @@ const ContactForm = () => {
         <div>
           <label htmlFor="message"></label>
           <textarea
-           style={{marginBottom:"16px", padding: "20px", borderRadius: "10px" }}
+           className="message"
             id="message"
             name="message"
             placeholder="Message"

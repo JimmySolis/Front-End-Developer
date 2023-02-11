@@ -43,6 +43,16 @@ body {
     border-radius: 10px; 
 }
 
+    
+button[type="submit"] {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    animation: blastoff 1s linear;
+  }
+
 
 
 /* responsive */
@@ -83,12 +93,7 @@ body {
   
 /* Iphon 13pro max */
 @media screen and (max-width: 428px) {
-    body{
-        height: auto;
-        width: auto;
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
+
 
     .contactDivInner{
         background: linear-gradient(to bottom, rgb(176, 226, 187), rgb(241, 241, 241));
@@ -140,28 +145,20 @@ body {
 @media screen and (max-width: 393px) {
 
 }
-
-/* Samsung galaxy S8+*/
-@media screen and (max-width: 360px) {
-
-}
-
   
 /* Samsung galaxy S8+*/
 @media screen and (max-width: 360px) {
-
 }
   
 
 /* pixel 4 */
 @media screen and (max-width: 353px) {
-
+  
 }
 
   
 /* Galaxy S9+ */
 @media screen and (max-width: 320px) {
-
 }
   
   

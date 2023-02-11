@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import "../../assets/style.css";
 
 function Home (){
     window.scrollTo(0, 0)

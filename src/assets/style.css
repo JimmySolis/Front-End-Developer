@@ -96,13 +96,53 @@ body {
 
 /* responsive */
 @media screen and (max-width: 1024px) {
+ 
 
+    .btnOne{
+        background-size: 400px;
+        background-position: center;
+        background-color: rgb(47, 5, 61);
+    }
+
+    .btnTwo{
+        background-size: 340px;
+        background-position: center;
+        background-color: rgb(29, 58, 15);
+    }
 }
 
 
  /* sufrace pro 7 */
  @media screen and (max-width: 912px) {
+    .containerHomeGrid{
+        margin: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
+    .btnStyle{
+        overflow: hidden;
+        width: 100%;
+        height: 300px;
+    }
+    .btnOne{
+        background-size: 555px;
+        background-position: center;
+        background-color: rgb(47, 5, 61);
+    }
+
+    .btnTwo{
+        background-size: 555px;
+        background-position: center;
+        background-color: rgb(29, 58, 15);
+    }
+    .btnThree{
+        background-color: rgb(218, 182, 5);
+    }
+
+    .btnFour{
+        background-color: rgb(222, 33, 33);
+    }
 }
 
     
@@ -162,7 +202,34 @@ body {
 
 /* Ipad mini */
 @media screen and (max-width: 768px) {
+    .btnStyle{
+        overflow: hidden;
+        width: 100%;
+        height: 320px;
+        color: rgb(241, 241, 241);
+        background-color: transparent;
+        border-radius: 25px;
+        box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+        font-family: 'VT323', monospace;
+    }
+    .btnOne{
+        background-size: 555px;
+        background-position: center;
+        background-color: rgb(47, 5, 61);
+    }
 
+    .btnTwo{
+        background-size: 555px;
+        background-position: center;
+        background-color: rgb(29, 58, 15);
+    }
+    .btnThree{
+        background-color: rgb(218, 182, 5);
+    }
+
+    .btnFour{
+        background-color: rgb(222, 33, 33);
+    }
 }
 
     
@@ -315,6 +382,21 @@ body {
     
     
 @media screen and (max-width: 280px) {
+    .btnStyle{
+        width: 235px;
+        margin-top: 16px;
+    }
 
+    .btnOne{
+        background-size: 295px;
+        background-position: center;
+        background-color: rgb(47, 5, 61);
+    }
+
+    .btnTwo{
+        background-size: 255px;
+        background-position: center;
+        background-color: rgb(29, 58, 15);
+    }
 }
     

@@ -99,13 +99,13 @@ body {
  
 
     .btnOne{
-        background-size: 400px;
+        background-size: 350px;
         background-position: center;
         background-color: rgb(47, 5, 61);
     }
 
     .btnTwo{
-        background-size: 340px;
+        background-size: 300px;
         background-position: center;
         background-color: rgb(29, 58, 15);
     }
@@ -235,7 +235,17 @@ body {
     
 /* surfaxe duo */
 @media screen and (max-width: 540px) {
+    .btnOne{
+        background-size: 300px;
+        background-position: center;
+        background-color: rgb(47, 5, 61);
+    }
 
+    .btnTwo{
+        background-size: 300px;
+        background-position: center;
+        background-color: rgb(29, 58, 15);
+    }
 }
 
     
@@ -385,20 +395,24 @@ body {
     
 @media screen and (max-width: 280px) {
     .btnStyle{
-        width: 235px;
+        width: 180px;
         margin-top: 16px;
     }
 
     .btnOne{
-        background-size: 295px;
+        background-size: 205px;
         background-position: center;
         background-color: rgb(47, 5, 61);
     }
 
     .btnTwo{
-        background-size: 255px;
+        background-size: 185px;
         background-position: center;
         background-color: rgb(29, 58, 15);
     }
+
+    .textSize{
+        font-size: 45px;
+      }
 }
     

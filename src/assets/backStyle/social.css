@@ -1,0 +1,586 @@
+body{
+    height: auto;
+    width: auto;
+}
+
+.socPageDiv{
+    display: flex;
+}
+
+.socLeftDiv{
+    width: 40%;
+    padding: 80px; 
+    margin-top: 32px;
+}
+
+.socFigcaption{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.socRightDiv{
+    width: 60%;
+    padding: 16px;
+    margin-top: 48px;
+}
+
+.socTechDiv{
+    font-weight: bold;
+    font-family: Chakra Petch; 
+    margin-top: 32px;
+    padding-left: 16px;
+}
+
+.socTechDivH2{
+    color: black;
+    font-family: Chakra Petch;
+    padding-left: 16px;
+}
+
+.socProbDiv{
+    font-weight: bold;
+    margin-top: 16px;
+    font-family: Chakra Petch;
+    padding-left: 16px;
+}
+
+.socProbDivH2{
+    color: black;
+    padding-right: 64px;
+    font-family: Chakra Petch;
+    padding-left: 16px;
+}
+
+.socDesDiv{
+    font-weight: bold;
+    margin-top: 16px;
+    font-family: Chakra Petch;
+    padding-left: 16px;
+}
+
+.socDesDivH2{
+    color: black;
+    padding-right: 64px;
+    font-family: Chakra Petch;
+    padding-left: 16px;
+    margin-bottom: 50px;
+}
+
+
+
+/* responsive */
+@media screen and (max-width: 1440px) {
+  
+   
+}
+
+@media screen and (max-width: 1280px) {
+    .socSrc{
+        width: 500px;
+    }
+    .socPageDiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr;;
+    }
+
+    .socLeftDiv{
+        width: 70%;
+        padding: 80px; 
+        margin-top: 32px;
+    }
+
+    .socRightDiv{
+        width: 100%;
+        padding: 16px;
+        margin-top: 48px;
+    }
+    
+   
+}
+
+/* responsive */
+@media screen and (max-width: 1024px) {
+
+    .socSrc{
+        width: 350px;
+    }
+    .socPageDiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr;;
+    }
+
+    .socLeftDiv{
+        width: 70%;
+        padding: 80px; 
+        margin-top: 32px;
+    }
+
+    .socRightDiv{
+        width: 100%;
+        padding: 16px;
+        margin-top: 48px;
+    }
+    
+}
+
+
+/* sufrace pro 7 */
+@media screen and (max-width: 912px) {
+
+    .socPageDiv{
+        display: block;
+    }
+    
+        .socSrc{
+            width: auto;
+        }
+    
+      .socLeftDiv{
+        width: auto;
+        padding: 100px; 
+        margin-top: 32px;
+    }
+    .socRightDiv{
+        width: auto;
+        padding: 16px;
+        margin-top: 0px;
+    }
+    
+        
+    .socTechDiv{
+        font-weight: bold;
+        font-family: Chakra Petch; 
+        margin-top: 0px;
+        font-size: 32px;
+    }
+    
+    .socTechDivH2{
+        color: black;
+        font-family: Chakra Petch;
+        font-size: 50px;
+    }
+    
+    .socProbDiv{
+        font-weight: bold;
+        margin-top: 0px;
+        font-family: Chakra Petch;
+        font-size: 32px;
+    }
+    
+    .socProbDivH2{
+        color: black;
+        padding-right: 64px;
+        font-family: Chakra Petch;
+        font-size: 50px;
+    }
+    
+    .socDesDiv{
+        font-weight: bold;
+        margin-top: 16px;
+        font-family: Chakra Petch;
+        font-size: 32px;
+    }
+    
+    .socDesDivH2{
+        color: black;
+        padding-right: 64px;
+        font-family: Chakra Petch;
+        font-size: 50px;
+    }
+    
+}
+
+  
+/* Ipad Air */
+@media screen and (max-width: 820px) {
+
+.socPageDiv{
+    display: block;
+}
+
+    .socSrc{
+        width: auto;
+    }
+
+  .socLeftDiv{
+    width: auto;
+    padding: 100px; 
+    margin-top: 32px;
+}
+.socRightDiv{
+    width: auto;
+    padding: 16px;
+    margin-top: 0px;
+}
+
+    
+.socTechDiv{
+    font-weight: bold;
+    font-family: Chakra Petch; 
+    margin-top: 0px;
+    font-size: 32px;
+}
+
+.socTechDivH2{
+    color: black;
+    font-family: Chakra Petch;
+    font-size: 50px;
+}
+
+.socProbDiv{
+    font-weight: bold;
+    margin-top: 0px;
+    font-family: Chakra Petch;
+    font-size: 32px;
+}
+
+.socProbDivH2{
+    color: black;
+    padding-right: 64px;
+    font-family: Chakra Petch;
+    font-size: 50px;
+}
+
+.socDesDiv{
+    font-weight: bold;
+    margin-top: 16px;
+    font-family: Chakra Petch;
+    font-size: 32px;
+}
+
+.socDesDivH2{
+    color: black;
+    padding-right: 64px;
+    font-family: Chakra Petch;
+    font-size: 50px;
+}
+}
+  
+
+/* Ipad mini */
+@media screen and (max-width: 768px) {
+    .socPageDiv{
+        display: block;
+    }
+    
+        .socSrc{
+            width: 100%;
+        }
+    
+      .socLeftDiv{
+        width: auto;
+        padding: 100px; 
+        margin-top: 32px;
+    }
+    .socRightDiv{
+        width: auto;
+        padding: 16px;
+        margin-top: 0px;
+    }
+    
+        
+    .socTechDiv{
+        font-weight: bold;
+        font-family: Chakra Petch; 
+        margin-top: 0px;
+        font-size: 32px;
+    }
+    
+    .socTechDivH2{
+        color: black;
+        font-family: Chakra Petch;
+        font-size: 50px;
+    }
+    
+    .socProbDiv{
+        font-weight: bold;
+        margin-top: 0px;
+        font-family: Chakra Petch;
+        font-size: 32px;
+    }
+    
+    .socProbDivH2{
+        color: black;
+        padding-right: 64px;
+        font-family: Chakra Petch;
+        font-size: 50px;
+    }
+    
+    .socDesDiv{
+        font-weight: bold;
+        margin-top: 16px;
+        font-family: Chakra Petch;
+        font-size: 32px;
+    }
+    
+    .socDesDivH2{
+        color: black;
+        padding-right: 64px;
+        font-family: Chakra Petch;
+        font-size: 50px;
+    }
+}
+
+  
+/* surfaxe duo */
+@media screen and (max-width: 540px) {
+    .socPageDiv{
+        display: block;
+    }
+    
+        .socSrc{
+            width: 300px;
+        }
+    
+      .socLeftDiv{
+        width: auto;
+        padding: 100px; 
+        margin-top: 32px;
+    }
+
+    .socRightDiv{
+        width: auto;
+        padding: 16px;
+        margin-top: 0px;
+    }
+    
+    .socTechDiv{
+        font-weight: bold;
+        font-family: Chakra Petch; 
+        margin-top: 0px;
+        font-size: 16px;
+    }
+    
+    .socTechDivH2{
+        color: black;
+        font-family: Chakra Petch;
+        font-size: 32px;
+    }
+    
+    .socProbDiv{
+        font-weight: bold;
+        margin-top: 0px;
+        font-family: Chakra Petch;
+        font-size: 16px;
+    }
+    
+    .socProbDivH2{
+        color: black;
+        padding-right: 64px;
+        font-family: Chakra Petch;
+        font-size: 32px;
+    }
+    
+    .socDesDiv{
+        font-weight: bold;
+        margin-top: 16px;
+        font-family: Chakra Petch;
+        font-size: 16px;
+    }
+    
+    .socDesDivH2{
+        color: black;
+        padding-right: 64px;
+        font-family: Chakra Petch;
+        font-size: 32px;
+    }
+}
+
+  
+/* Iphon 13pro max */
+@media screen and (max-width: 428px) {
+    .socSrc{
+        width: 95%;
+        height: 200px;
+    }
+
+    .socPageDiv{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .socLeftDiv{
+        width: auto;
+        padding: 0px; 
+        margin-top: 0px;
+        margin: 25px;
+    }
+
+    .socFigcaption{
+        color: black;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .socRightDiv{
+        width: auto;
+        padding: 16px;
+        margin-top: 0px;
+        justify-content: center;
+    }
+    
+    .socTechDiv{
+        font-weight: bold;
+        font-family: Chakra Petch; 
+        margin-top: 0px;
+        font-size: 16px;
+    }
+    
+    .socTechDivH2{
+        color: black;
+        font-family: Chakra Petch;
+        font-size: 32px;
+    }
+    
+    .socProbDiv{
+        font-weight: bold;
+        margin-top: 0px;
+        font-family: Chakra Petch;
+        font-size: 16px;
+    }
+    
+    .socProbDivH2{
+        color: black;
+        padding-right: 64px;
+        font-family: Chakra Petch;
+        font-size: 32px;
+    }
+    
+    .socDesDiv{
+        font-weight: bold;
+        margin-top: 16px;
+        font-family: Chakra Petch;
+        font-size: 16px;
+    }
+    
+    .socDesDivH2{
+        color: black;
+        padding-right: 64px;
+        font-family: Chakra Petch;
+        font-size: 32px;
+    }
+}
+  
+/* Iphone xr */
+@media screen and (max-width: 414px) {
+
+}
+
+  
+/* iphone 12 pro */
+@media screen and (max-width: 393px) {
+
+}
+  
+/* Samsung galaxy S8+*/
+@media screen and (max-width: 360px) {
+    .socSrc{
+        width: 90%;
+        height: 150px;
+    }
+
+    .socFigcaption{
+        color: black;
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+    }
+    
+}
+  
+
+/* pixel 4 */
+@media screen and (max-width: 353px) {
+  
+}
+
+  
+/* Galaxy S9+ */
+@media screen and (max-width: 320px) {
+
+    body{
+        height: auto;
+        width: auto;
+    }
+
+    .socSrc{
+        width: 100%;
+        height: 200px;
+    }
+
+    .socFigcaption{
+        color: black;
+        display: flex;
+        justify-content: center;
+        font-size: 11px;
+    }
+
+    .socPageDiv{
+        display: block;
+    }
+
+    .socLeftDiv{
+        width: auto;
+        padding: 0px; 
+        margin-top: 32px;
+    }
+
+    .socRightDiv{
+     width: 100%;
+      padding: 16px;
+      margin-top: 0px;
+    }
+
+    .socTechDiv{
+        font-weight: bold;
+        font-family: Chakra Petch; 
+        margin-top: 0px;
+        font-size: 10px;
+    }
+    
+    .socTechDivH2{
+        color: black;
+        font-family: Chakra Petch;
+        font-size: 16px;
+    }
+    
+    .socProbDiv{
+        font-weight: bold;
+        margin-top: 0px;
+        font-family: Chakra Petch;
+        font-size: 10px;
+    }
+    
+    .socProbDivH2{
+        color: black;
+        padding-right: 64px;
+        font-family: Chakra Petch;
+        font-size: 16px;
+    }
+    
+    .socDesDiv{
+        font-weight: bold;
+        margin-top: 16px;
+        font-family: Chakra Petch;
+        font-size: 10px;
+    }
+    
+    .socDesDivH2{
+        color: black;
+        padding-right: 64px;
+        font-family: Chakra Petch;
+        font-size: 16px;
+    }
+    
+}
+  
+  
+@media screen and (max-width: 280px) {
+    .socSrc{
+        width: 100%;
+        height: 125px;
+    }
+}
+  

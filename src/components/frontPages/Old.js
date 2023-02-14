@@ -1,7 +1,7 @@
 import React from 'react';
 import delGIF from "../../img/oldpro.gif";
 import { motion } from "framer-motion";
-import "../../assets/old.css"
+import "../../assets/frontStyle/old.css"
 
 const oldPage = () => {
   return (

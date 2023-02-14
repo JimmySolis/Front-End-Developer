@@ -1,7 +1,7 @@
 import React from 'react';
 import mrkGIF from "../../img/mrkGIF.gif";
 import { motion } from "framer-motion";
-import "../../assets/mrk.css"
+import "../../assets/frontStyle/mrk.css"
 
 const mrkPage = () => {
   return (

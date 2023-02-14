@@ -1,7 +1,7 @@
 import React from 'react';
 import blgGIF from "../../img/blgVidPage.gif";
 import { motion } from "framer-motion";
-import "../../assets/blg.css"
+import "../../assets/frontStyle/blg.css"
 
 const blgPage = () => {
   return (

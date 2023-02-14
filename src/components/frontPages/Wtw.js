@@ -1,7 +1,7 @@
 import React from 'react';
 import wtwGIF from "../../img/wtw.gif";
 import { motion } from "framer-motion";
-import "../../assets/wtw.css"
+import "../../assets/frontStyle/wtw.css"
 
 
 const wtwPage = () => {

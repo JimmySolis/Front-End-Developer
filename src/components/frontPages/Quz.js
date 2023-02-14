@@ -1,7 +1,7 @@
 import React from 'react';
 import quzGIF from "../../img/quizgif.gif";
 import { motion } from "framer-motion";
-import "../../assets/quz.css"
+import "../../assets/frontStyle/quz.css"
 
 const quzPage = () => {
   return (

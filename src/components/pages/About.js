@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "../../assets/about.css";
-import file from "../../assets/FrontEndResume.pdf";
+import file from "../../assets/files/Jimmy-Solis-Frontend-Developer.pdf";
 import github from "../../img/github.png";
 import linkedin from "../../img/linkIN.png";
 

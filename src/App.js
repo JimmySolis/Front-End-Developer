@@ -1,20 +1,23 @@
 import { Route, Routes, useLocation} from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
+// Home-Directory Pages
 import Home from "./components/pages/Home";
 import FrontEnd from "./components/pages/FrontEnd";
 import BackEnd from "./components/pages/BackEnd";
 import Contact from "./components/pages/Contact";
 import About from "./components/pages/About";
-import Blg from "./components/pages/Blg";
-import Del from "./components/pages/Del";
-import Mrk from "./components/pages/Mrk";
-import Old from "./components/pages/Old";
-import Quz from "./components/pages/Quz";
-import Wtw from "./components/pages/Wtw";
-import MySocial from "./components/pages/backEndMySocial";
-import Listed from "./components/pages/backEndListed";
-import BackOfShop from "./components/pages/backEndBackOfShop";
-import TechBlog from "./components/pages/backEndTecBlogging";
+// Front-End Pages
+import Blg from "./components/frontPages/Blg";
+import Del from "./components/frontPages/Del";
+import Mrk from "./components/frontPages/Mrk";
+import Old from "./components/frontPages/Old";
+import Quz from "./components/frontPages/Quz";
+import Wtw from "./components/frontPages/Wtw";
+// Back-End Pages
+import MySocial from "./components/backPages/backEndMySocial";
+import Listed from "./components/backPages/backEndListed";
+import BackOfShop from "./components/backPages/backEndBackOfShop";
+import TechBlog from "./components/backPages/backEndTecBlogging";
 
 
 

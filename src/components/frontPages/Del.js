@@ -1,7 +1,7 @@
 import React from 'react';
 import delGIF from "../../img/delVid.gif";
 import { motion } from "framer-motion";
-import "../../assets/del.css"
+import "../../assets/frontStyle/del.css"
 
 const delPage = () => {
   return (

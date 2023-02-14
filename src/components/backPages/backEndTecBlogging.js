@@ -1,6 +1,7 @@
 import React from 'react';
 import tecBlogGIF from "../../img/techBlogging.gif";
 import { motion } from "framer-motion";
+import "../../assets/backStyle/tec.css";
 
 
 
@@ -12,41 +13,41 @@ const TechBlogPage = () => {
     exit={{ scaleY: 0 }} 
     transition={{ duration: .3 }}
     >
-    <div style={{ display: 'flex'}}>
+    <div className='tecPageDiv'>
 
-      <div style={{ width: '40%', padding: '80px', marginTop: '32px'}}>
-       <a href="techbloggging.herokuapp.com/" target="_blank"> <img src= {tecBlogGIF} alt="your-image-description-here" /> </a> 
-       <figcaption style={{ color:'black', display:'flex', justifyContent:"center" }}>Click image to visit website</figcaption> 
+      <div className='tecLeftDiv'>
+       <a href="techbloggging.herokuapp.com/" target="_blank"> <img src= {tecBlogGIF} alt="your-image-description-here" className='tecSrc'/> </a> 
+       <figcaption className='tecFigcaption' >Click image to visit website</figcaption> 
       </div>
 
-      <div style={{ width: '60%', padding: '16px', marginTop: '16px' }}>
+      <div className='tecRightDiv{'>
 
-        <div style={{ fontWeight: 'bold', fontFamily:'Chakra Petch' , marginTop: '32px'}}>
+        <div className='tecTechDiv'>
           <h1> Technology Used </h1>
         </div>
 
         <div>
-         <h2 style={{color:'black',fontFamily:'Chakra Petch'}}> Mongoose, MongoDB, JavaScript</h2>
+         <h2 className='tecTechDivH2'> Mongoose, MongoDB, JavaScript</h2>
         </div>
 
-        <div style={{ fontWeight: 'bold', marginTop: '16px', fontFamily:'Chakra Petch'}}>
+        <div className='tecProbDiv'>
           <h1> Problem Solving </h1>
         </div>
 
         <div>
-        <h2 style={{color:'black', paddingRight: '64px', fontFamily:'Chakra Petch'}}> 
+        <h2 className='tecProbDivH2'> 
             With so much going on on social media, the tech industry needs a place to talk all about the new tech.
             A focus inviorment that provideds simple tech information of all the needed updates.
 
           </h2>
         </div>
 
-        <div  style={{ fontWeight: 'bold', marginTop: '16px', fontFamily:'Chakra Petch'}}>
+        <div  className='tecDesDiv'>
             <h1>Design Proccess</h1>
         </div>
 
         <div>
-            <h2 style={{color:'black', paddingRight: '64px', fontFamily:'Chakra Petch'}}>
+            <h2 className='tecDesDivH2'>
             I wanted something simple for this project. 
             Once I had all the routes and the back end I made a signing or signup page.
             Then I made a home page where people can see all the posts donw.

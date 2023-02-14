@@ -1,6 +1,7 @@
 import React from 'react';
 import mrkGIF from "../../img/mrkGIF.gif";
 import { motion } from "framer-motion";
+import "../../assets/mrk.css"
 
 const mrkPage = () => {
   return (
@@ -10,29 +11,29 @@ const mrkPage = () => {
     exit={{ scaleY: 0 }} 
     transition={{ duration: .3 }}
     >
-    <div style={{ display: 'flex'}}>
+    <div className="mrkPageDiv">
 
-      <div style={{ width: '40%', padding: '80px', marginTop: '32px'}}>
-       <a href="https://mrkx.net/" target="_blank"> <img src= {mrkGIF} alt="your-image-description-here" /> </a> 
-       <figcaption style={{ color:'black', display:'flex', justifyContent:"center" }}>Click image to visit website</figcaption> 
+      <div className="mrkLeftDiv">
+       <a href="https://mrkx.net/" target="_blank"> <img src= {mrkGIF} alt="your-image-description-here" className='mrkSrc' /> </a> 
+       <figcaption  className="mrkFigcaption">Click Image To Visit Website</figcaption> 
       </div>
 
-      <div style={{ width: '60%', padding: '16px', marginTop: '48px' }}>
+      <div  className="mrkRightDiv">
 
-        <div style={{ fontWeight: 'bold', fontFamily:'Chakra Petch' , marginTop: '32px'}}>
+        <div  className="mrkTechDiv">
           <h1> Technology Used </h1>
         </div>
 
         <div>
-         <h2 style={{color:'black',fontFamily:'Chakra Petch'}}> HTML, CSS, JS</h2>
+         <h2 className="mrkTechDivH2"> HTML, CSS, JS</h2>
         </div>
 
-        <div style={{ fontWeight: 'bold', marginTop: '16px', fontFamily:'Chakra Petch'}}>
+        <div  className="mrkProbDiv">
           <h1> Problem Solving </h1>
         </div>
 
         <div>
-        <h2 style={{color:'black', paddingRight: '64px', fontFamily:'Chakra Petch'}}> In order to have some feedback while the page is loading, I designed a preloader that disappears when all the images have loaded.
+        <h2 className="mrkProbDivH2"> In order to have some feedback while the page is loading, I designed a preloader that disappears when all the images have loaded.
              The client wanted a minimalistic website to display some of his photography styles.
               My job was to display each collection in a unique and staggered way.
                This layout gives the viewers a pleasant experience when visiting his site.
@@ -40,12 +41,12 @@ const mrkPage = () => {
           </h2>
         </div>
 
-        <div  style={{ fontWeight: 'bold', marginTop: '16px', fontFamily:'Chakra Petch'}}>
+        <div className="mrkDesDiv">
             <h1>Design Proccess</h1>
         </div>
 
         <div>
-            <h2 style={{color:'black', paddingRight: '64px', fontFamily:'Chakra Petch'}}>
+            <h2  className="mrkDesDivH2">
                 I approached the creation of the website with a minimalist design in mind.
                 I carefully selected a color palette that was understated and complemented the simple design. 
                 My client was thrilled with the final result and appreciated the clean and modern look of the site. 

@@ -363,20 +363,22 @@ body {
 /* Galaxy S9+ */
 @media screen and (max-width: 320px) {
     .btnStyle{
-        width: 280px;
+        width: auto;
         margin-top: 16px;
     }
 
     .btnOne{
-        background-size: 335px;
+        background-size: 255px;
         background-position: center;
         background-color: rgb(47, 5, 61);
+        width: 210px;
     }
 
     .btnTwo{
-        background-size: 285px;
+        background-size: 195px;
         background-position: center;
         background-color: rgb(29, 58, 15);
+        width: 210px;
     }
 }
     

@@ -1,6 +1,7 @@
 import React from 'react';
 import quzGIF from "../../img/quizgif.gif";
 import { motion } from "framer-motion";
+import "../../assets/quz.css"
 
 const quzPage = () => {
   return (
@@ -10,41 +11,41 @@ const quzPage = () => {
     exit={{ scaleY: 0 }} 
     transition={{ duration: .3 }}
     >
-    <div style={{ display: 'flex'}}>
+    <div className='quzPageDiv'>
 
-      <div style={{ width: '40%', padding: '80px', marginTop: '32px'}}>
-       <a href="https://jimmysolis.github.io/quizCoded/" target="_blank"> <img src= {quzGIF} alt="your-image-description-here" /> </a> 
-       <figcaption style={{ color:'black', display:'flex', justifyContent:"center" }}>Click image to visit website</figcaption> 
+      <div className='quzLeftDiv'>
+       <a href="https://jimmysolis.github.io/quizCoded/" target="_blank"> <img src= {quzGIF} alt="your-image-description-here" className='quzSrc' /> </a> 
+       <figcaption className='quzFigcaption'>Click image to visit website</figcaption> 
       </div>
 
-      <div style={{ width: '60%', padding: '16px', marginTop: '48px' }}>
+      <div className='quzRightDiv'>
 
-        <div style={{ fontWeight: 'bold', fontFamily:'Chakra Petch' , marginTop: '32px'}}>
+        <div className='quzTechDiv'>
           <h1> Technology Used </h1>
         </div>
 
         <div>
-         <h2 style={{color:'black',fontFamily:'Chakra Petch'}}> HTML, CSS, JS</h2>
+         <h2 className='quzTechDivH2'> HTML, CSS, JS</h2>
         </div>
 
-        <div style={{ fontWeight: 'bold', marginTop: '16px', fontFamily:'Chakra Petch'}}>
+        <div className='quzProbDiv'>
           <h1> Problem Solving </h1>
         </div>
 
         <div>
-        <h2 style={{color:'black', paddingRight: '64px', fontFamily:'Chakra Petch'}}>
+        <h2 className='quzProbDivH2'>
            There has been long debate on what car is the faastest. This test is made to asure poeple that each nation brings to
            the table a unique trait in car. 
            With a high speed and intense quiz people can focus on championing each other rather than focusing on silly debates. 
           </h2>
         </div>
 
-        <div  style={{ fontWeight: 'bold', marginTop: '16px', fontFamily:'Chakra Petch'}}>
+        <div className='quzDesDiv'>
             <h1>Design Proccess</h1>
         </div>
 
         <div>
-            <h2 style={{color:'black', paddingRight: '64px', fontFamily:'Chakra Petch'}}>
+            <h2 className='quzDesDivH2'>
           The design for this quiz was easy. I really wanted popping colors.
           So with a correct answer the background goes green and with a wrong one it goes red.
           I wanted to make it challenging, so I added a timer that starts the moment the quiz begins.

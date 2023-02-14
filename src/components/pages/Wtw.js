@@ -1,6 +1,7 @@
 import React from 'react';
 import wtwGIF from "../../img/wtw.gif";
 import { motion } from "framer-motion";
+import "../../assets/wtw.css"
 
 
 const wtwPage = () => {
@@ -11,29 +12,29 @@ const wtwPage = () => {
     exit={{ scaleY: 0 }} 
     transition={{ duration: .3 }}
     >
-    <div style={{ display: 'flex'}}>
+    <div className='wtwPageDiv'>
 
-      <div style={{ width: '40%', padding: '80px', marginTop: '32px'}}>
-       <a href="https://jimmysolis.github.io/WhatsTheWeather/" target="_blank"> <img src= {wtwGIF} alt="your-image-description-here" /> </a> 
-       <figcaption style={{ color:'black', display:'flex', justifyContent:"center" }}>Click image to visit website</figcaption> 
+      <div className='wtwLeftDiv'>
+       <a href="https://jimmysolis.github.io/WhatsTheWeather/" target="_blank"> <img src= {wtwGIF} alt="your-image-description-here" className='wtwSrc' /> </a> 
+       <figcaption className='wtwFigcaption'>Click image to visit website</figcaption> 
       </div>
 
-      <div style={{ width: '60%', padding: '16px', marginTop: '48px' }}>
+      <div className='wtwRightDiv'>
 
-        <div style={{ fontWeight: 'bold', fontFamily:'Chakra Petch' , marginTop: '32px'}}>
+        <div className='wtwTechDiv'>
           <h1> Technology Used </h1>
         </div>
 
         <div>
-         <h2 style={{color:'black',fontFamily:'Chakra Petch'}}> HTML, CSS, JS, BootStrap</h2>
+         <h2 className='wtwTechDivH2'> HTML, CSS, JS, BootStrap</h2>
         </div>
 
-        <div style={{ fontWeight: 'bold', marginTop: '16px', fontFamily:'Chakra Petch'}}>
+        <div className='wtwProbDiv{'>
           <h1> Problem Solving </h1>
         </div>
 
         <div>
-        <h2 style={{color:'black', paddingRight: '64px', fontFamily:'Chakra Petch'}}>
+        <h2 className='wtwProbDivH2'>
             Here we have a project where i was asked to recreate this webite from top to bottom.
             We wanted to have the weather for each city accessible through The Weather Apps API.
             I needed to get the lay about and even the gradient color from the example. 
@@ -41,12 +42,12 @@ const wtwPage = () => {
           </h2>
         </div>
 
-        <div  style={{ fontWeight: 'bold', marginTop: '16px', fontFamily:'Chakra Petch'}}>
+        <div className='wtwDesDiv' >
             <h1>Design Proccess</h1>
         </div>
 
         <div>
-            <h2 style={{color:'black', paddingRight: '64px', fontFamily:'Chakra Petch'}}>
+            <h2 className='wtwDesDivH2'>
             The design process for this app was fairly easy. I started by looking at the devTool in chrome.
             Once I had an idea of how it was done I took it upon myself to set divs in the dementions that I saw resemble the example.
             After that I changed the viewport size and made sure it would fit well in all the most popular phones out there.   

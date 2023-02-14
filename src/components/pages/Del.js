@@ -1,6 +1,7 @@
 import React from 'react';
 import delGIF from "../../img/delVid.gif";
 import { motion } from "framer-motion";
+import "../../assets/del.css"
 
 const delPage = () => {
   return (
@@ -10,29 +11,29 @@ const delPage = () => {
     exit={{ scaleY: 0 }} 
     transition={{ duration: .3 }}
     >
-    <div style={{ display: 'flex'}}>
+    <div className='delPageDiv'>
 
-      <div style={{ width: '40%', padding: '80px', marginTop: '32px'}}>
-       <a href="https://delegantpoodlesanddoodles.com/" target="_blank"> <img src= {delGIF} alt="your-image-description-here" /> </a> 
-       <figcaption style={{ color:'black', display:'flex', justifyContent:"center" }}>Click image to visit website</figcaption> 
+      <div className='delLeftDiv'>
+       <a href="https://delegantpoodlesanddoodles.com/" target="_blank"> <img src= {delGIF} alt="your-image-description-here" className='delSrc' /> </a> 
+       <figcaption className='delFigcaption'>Click image to visit website</figcaption> 
       </div>
 
-      <div style={{ width: '60%', padding: '16px', marginTop: '48px' }}>
+      <div className='delRightDiv'>
 
-        <div style={{ fontWeight: 'bold', fontFamily:'Chakra Petch' , marginTop: '32px'}}>
+        <div className='delTechDiv'>
           <h1> Technology Used </h1>
         </div>
 
         <div>
-         <h2 style={{color:'black',fontFamily:'Chakra Petch'}}> HTML, CSS, JS</h2>
+         <h2 className='delTechDivH2'> HTML, CSS, JS</h2>
         </div>
 
-        <div style={{ fontWeight: 'bold', marginTop: '16px', fontFamily:'Chakra Petch'}}>
+        <div className='delProbDiv'>
           <h1> Problem Solving </h1>
         </div>
 
         <div>
-        <h2 style={{color:'black', paddingRight: '64px', fontFamily:'Chakra Petch'}}>
+        <h2 className='delProbDivH2'>
             This website was made in efforts to bring joy to families. 
             We needed a way to display new puppies as well as have a place to have information about the breeds. 
             Couple that with photos and a way to inquire about the availability of pups.
@@ -41,12 +42,12 @@ const delPage = () => {
           </h2>
         </div>
 
-        <div  style={{ fontWeight: 'bold', marginTop: '16px', fontFamily:'Chakra Petch'}}>
+        <div className='delDesDiv'>
             <h1>Design Proccess</h1>
         </div>
 
         <div>
-            <h2 style={{color:'black', paddingRight: '64px', fontFamily:'Chakra Petch'}}>
+            <h2 className='delDesDivH2'>
             With short notice and a quick due date I needed to make sure I was building a website that had text that stood-out but was not overwhelming.
             On top of that I focused on the moblie version first beacuse I knew that my client would be texting the website to all her customers.
             There was nothing to challenging and I had a great time making sure every platform was well displayed.

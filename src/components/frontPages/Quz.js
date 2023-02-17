@@ -34,9 +34,9 @@ const quzPage = () => {
 
         <div>
         <h2 className='quzProbDivH2'>
-           There has been long debate on what car is the faastest. This test is made to asure poeple that each nation brings to
-           the table a unique trait in car. 
-           With a high speed and intense quiz people can focus on championing each other rather than focusing on silly debates. 
+        There has been a long-standing debate on which car is the fastest. 
+        This test is designed to provide assurance that each nation brings to the table a unique trait in car manufacturing. 
+        With a high-speed and challenging quiz, individuals can focus on championing each other and their respective nations, rather than getting caught up in inconsequential debates.
           </h2>
         </div>
 
@@ -46,10 +46,10 @@ const quzPage = () => {
 
         <div>
             <h2 className='quzDesDivH2'>
-          The design for this quiz was easy. I really wanted popping colors.
-          So with a correct answer the background goes green and with a wrong one it goes red.
-          I wanted to make it challenging, so I added a timer that starts the moment the quiz begins.
-          At the end there is a score board that is saved in the local storage but this made for a fun competition with my friends. 
+            The design concept for this quiz was to create a visually engaging experience that captures the user's attention. 
+            This was achieved by utilizing bright and contrasting colors, such as green for correct answers and red for incorrect ones. 
+            In order to add an additional layer of difficulty, a timed element was introduced, making it more challenging and exciting for users. 
+            Finally, a scoreboard was implemented to showcase the user's final score, which is automatically saved to local storage. This feature also encourages friendly competition among users, further adding to the overall experience of the quiz.
             </h2>
         </div>
 

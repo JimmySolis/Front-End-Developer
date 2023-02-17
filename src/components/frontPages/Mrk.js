@@ -33,10 +33,10 @@ const mrkPage = () => {
         </div>
 
         <div>
-        <h2 className="mrkProbDivH2"> In order to have some feedback while the page is loading, I designed a preloader that disappears when all the images have loaded.
-             The client wanted a minimalistic website to display some of his photography styles.
-              My job was to display each collection in a unique and staggered way.
-               This layout gives the viewers a pleasant experience when visiting his site.
+        <h2 className="mrkProbDivH2"> To provide users with feedback during the loading process, a preloader was meticulously designed to vanish only after all images had loaded. 
+        The project objective was to curate a minimalistic website that showcases the client's photographic styles. 
+        My assignment was to showcase each collection in a distinctive and strategically staggered manner.
+        As a result, this layout creates a gratifying user experience, elevating the user's engagement with the client's website.
 
           </h2>
         </div>
@@ -47,10 +47,10 @@ const mrkPage = () => {
 
         <div>
             <h2  className="mrkDesDivH2">
-                I approached the creation of the website with a minimalist design in mind.
-                I carefully selected a color palette that was understated and complemented the simple design. 
-                My client was thrilled with the final result and appreciated the clean and modern look of the site. 
-                The process was a smooth one as I worked closely with the client to ensure that their vision was realized. </h2>
+            From the outset, the website's design was envisaged as minimalist, and every decision was made with that principle in mind.
+            The color palette was selected with utmost care to complement the simple design with understated hues. 
+            The final outcome garnered the client's admiration, with appreciation for the site's clean and modern aesthetic. 
+            The creation process progressed smoothly, and client satisfaction was achieved by working closely to ensure the vision was realized. </h2>
         </div>
 
       </div>

@@ -36,10 +36,9 @@ const mySocialPage = () => {
 
         <div>
         <h2 className='socProbDivH2'> 
-        Here  we are fixing the problem how to modify a database through api calls. 
-        This is strictly done through the backend where we create specific CRUD routes that will create, delete, upload and read data we want.
-        For this specific project I needed to make a route for a socail app where people can create a profile and add friends, update user info, and create as well as delete profiles.
-        The trickiest part is setting up all the dependencies and having the correct ports connected to access the mongoDB server.
+        In this project, I tackled the issue of modifying a database through API calls, which is achieved exclusively through the backend using specific CRUD routes to create, delete, update, and read the data we require. 
+        For this particular project, I created a route for a social application, enabling users to create a profile, add friends, update their personal information, and create or delete profiles. 
+        One of the most challenging aspects of the project was configuring all the dependencies and ensuring that the correct ports were connected to gain access to the MongoDB server.
           </h2>
         </div>
 
@@ -49,12 +48,11 @@ const mySocialPage = () => {
 
         <div>
             <h2 className='socDesDivH2'>
-               I began by writing out all my routes on paper.
-               Makeing sure I had a visual of what models I needed.
-               I worked on the requirements I needed inorder to assure I would be able to create an account.
-               Once I had a plan next I created my server page and cheked the connection to mondoDB.
-               After, I finished up the models and created the routes to be about to make profiles.
-               Finally, I tested the all the routes to make sure they all worked and I was finish with the project.
+            To ensure a structured and organized approach to this project, I started by outlining all the required routes and models on paper. 
+            I made sure to have a clear visual of what models I needed to create and how the routes should function. 
+            Once I had a plan in place, I proceeded to create the server page and checked the connection to MongoDB. 
+            After that, I completed the necessary models and created the routes to be able to create profiles, add friends, and update user information. 
+            Finally, I thoroughly tested all the routes to ensure that they were all functioning as intended. With that, the project was completed.
               </h2>
         </div>
 

@@ -34,9 +34,10 @@ const BackOfShopPage = () => {
 
         <div>
         <h2 className='shopProbDivH2'> 
-        How do we keep an E-commerce in order? By using routes that how.
-        If a product gets bought an api call gets sent out and it updated. 
-        Once a profile is made it becomes much more simple to adjust and keep track of inventory.
+        To maintain the orderliness of an e-commerce website, the use of routes is crucial. 
+        By implementing routes, the website is able to handle various transactions, such as a product purchase, by sending out an API call and updating the database. 
+        This system is also helpful in keeping track of inventory and other key metrics. 
+        Creating a user profile streamlines the process even further, allowing for greater customization and ease of use.
           </h2>
         </div>
 
@@ -46,9 +47,10 @@ const BackOfShopPage = () => {
 
         <div>
             <h2 className='shopDesDivH2'>
-             In this project I needed modles that were clean and simple.
-             I outlined each one and what they held once that was established I was able to fill the price and quntity.
-             After that made the routes and tested them thoroughly.
+            In this project, the objective was to create models that were straightforward and uncluttered. 
+            I began by outlining each model and specifying the data that they would contain. 
+            Once this was established, I could populate the models with the relevant price and quantity information. 
+            Finally, I created the necessary routes and took the time to thoroughly test them to ensure that they functioned as intended.
               </h2>
         </div>
 

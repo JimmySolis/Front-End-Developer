@@ -34,10 +34,12 @@ const blgPage = () => {
 
         <div>
         <h2 className='blgProbDivH2'> 
-        For this website we are trying to emphasize the type of labor. The client wanted me to develop some eye candy for his new company.
-        He wanted to make people see that although he was just starting out he has asperations to be clean and professional.
-        The task was difficult becasue he did not have any photos other than his cetificates but with a neat website he feels confident that he will have
-        many customers soon. And as of now he is doing well.  
+        My goal for this website is to highlight the specific type of labor that the client offers. 
+        The client tasked me with creating an engaging visual design for their new company. 
+        They sought to communicate their dedication to upholding high standards of cleanliness and professionalism, despite being in the early stages of their business venture. 
+        The challenge of the project was intensified by the absence of images, with the exception of a few certificates. 
+        However, with a polished website, our client now feels confident in their ability to attract a large customer base. 
+        As of the present, the business is thriving.
           </h2>
         </div>
 
@@ -47,9 +49,13 @@ const blgPage = () => {
 
         <div>
             <h2 className='blgDesDivH2'>
-            When I set out to do this project I came up with the idea of a perfect lawn to Demonstrate what his comapny was aiming to do.
-            He loved the idea and with some pretty colors that complement the green grass I began to build the lay out. He didnt want to many pages. Therefore, I sticked to a menu that only had about 
-            three options that alternate as clicked. He liked the simplicity and agreed to keep me updated when he had Enough images for a galley.             </h2>
+            When embarking on this project, I proposed the idea of a pristine lawn to vividly illustrate the objective of the company. 
+            The concept was well-received by the client, and I began constructing the layout, incorporating colors that harmonized with the vibrant green of the grass. 
+            Given the client's preference for a streamlined website, I ensured that the menu was composed of only three options that toggled as clicked. 
+            This approach was embraced by the client who appreciated the website's simplicity and ease of navigation. 
+            I also created the logo seen at the top of the page.
+            Additionally, we reached an agreement that the client would keep me apprised of the acquisition of sufficient images for the creation of a gallery."
+             </h2>
         </div>
 
       </div>

@@ -36,8 +36,8 @@ const TechBlogPage = () => {
 
         <div>
         <h2 className='tecProbDivH2'> 
-            With so much going on on social media, the tech industry needs a place to talk all about the new tech.
-            A focus inviorment that provideds simple tech information of all the needed updates.
+        To keep up with the ever-evolving landscape of technology, it has become imperative to have a dedicated platform that allows for the discussion of the latest advancements in the field. 
+        This platform should offer a streamlined user experience and provide straightforward, concise information that highlights important updates and developments in the tech industry.
 
           </h2>
         </div>
@@ -48,10 +48,9 @@ const TechBlogPage = () => {
 
         <div>
             <h2 className='tecDesDivH2'>
-            I wanted something simple for this project. 
-            Once I had all the routes and the back end I made a signing or signup page.
-            Then I made a home page where people can see all the posts donw.
-            Finally, I made a profile page where users can write there own posts.
+            For this project, I aimed to create a clean and straightforward user interface.
+            After establishing the necessary routes and backend functionality, I developed a user login/signup page, a homepage displaying all posts, and a profile page where users can create their own posts.
+            By keeping the design simple and intuitive, I ensured that users could quickly and easily access and engage with the platform's content.
 
             </h2>
         </div>

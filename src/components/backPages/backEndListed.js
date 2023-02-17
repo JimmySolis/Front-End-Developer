@@ -34,10 +34,11 @@ const ListedPage = () => {
 
         <div>
         <h2 className='lisProbDivH2'> 
-        Have you ever needed to make a chrismas or a birthday list? Or have you ever needed to see what your mother wanted for her birthday? 
-        Well, I want to solve that embaracing problem. The awkward asking what size arre you or what color do you want it will seize to exist.
-        This application allows you to make a profile and list exactly what toy, shirt, or any other thing you may want to purchase. 
-        Then people can visit your profile and buy it for you with out getting a single thing worng.
+        Have you ever encountered the awkward situation of asking someone what they want for their birthday or Christmas, only to worry about getting the size or color wrong? 
+        Well, I have a solution to that problem. 
+        I designed an application that allows you to create a profile and list the specific items you wish to receive, whether it be a toy or a shirt. 
+        This way, people can visit your profile and purchase items for you without any confusion or errors. 
+        The application eliminates the need for awkward conversations about preferences and sizes, and it enhances the gift-giving experience for everyone involved.
           </h2>
         </div>
 
@@ -47,11 +48,11 @@ const ListedPage = () => {
       
         <div>
             <h2 className='lisDesDivH2'>
-            I was more interested in making the back-end of this project work so my design Emphasis was focused on creating list names an individual list items. 
-        Each item would be filled with the necessary details to correctly identify the gift/object being bought. 
-        I knew I wanted to incorporate a URL section because this way people can access exactly what the user needed.
-        Super easy to use and super easy to understand. Like any other backend projects, I create a server page and connect to the GraphQL.
-        GraphQL was extremely easy to use to make this process fast.
+            For this project, my focus was primarily on the backend functionality, with design taking a secondary role. 
+            My emphasis was on creating lists and individual list items with comprehensive details to accurately identify the desired gift or object. 
+            I made sure to include a URL section for easy access to the specific item needed. With the creation of a server page and connection to GraphQL, the development process was smooth and efficient. 
+            GraphQL proved to be a highly effective tool in quickly implementing the desired functionality. 
+            Overall, the application is user-friendly and intuitive.
               </h2>
         </div>
 

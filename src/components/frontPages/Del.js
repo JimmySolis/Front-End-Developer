@@ -34,11 +34,10 @@ const delPage = () => {
 
         <div>
         <h2 className='delProbDivH2'>
-            This website was made in efforts to bring joy to families. 
-            We needed a way to display new puppies as well as have a place to have information about the breeds. 
-            Couple that with photos and a way to inquire about the availability of pups.
-            The client just need something done fast but pretty becasue she had a litter of pups going into two months. 
-            She was please with the work and asked to getting starting on a bigger project where she will sale and promote her Schnauzer. 
+        My objective in creating this website was to bring happiness to families through showcasing new puppies and providing information on different breeds. 
+        With the incorporation of captivating photos, I developed an efficient system that allows prospective buyers to inquire about the availability of these delightful pups. 
+        My client required an expedited project completion that adhered to aesthetic standards, as the litter of puppies was already two months old. 
+        I was able to deliver a pleasing result that met her expectations, resulting in a request for my services to market and promote her Schnauzer breed on a more significant scale.
           </h2>
         </div>
 
@@ -48,10 +47,9 @@ const delPage = () => {
 
         <div>
             <h2 className='delDesDivH2'>
-            With short notice and a quick due date I needed to make sure I was building a website that had text that stood-out but was not overwhelming.
-            On top of that I focused on the moblie version first beacuse I knew that my client would be texting the website to all her customers.
-            There was nothing to challenging and I had a great time making sure every platform was well displayed.
-
+            Despite a compressed timeline, I was able to develop a website that struck a balance between eye-catching text and a user-friendly layout that was both engaging and comprehensible. 
+            Notably, I prioritized the mobile version's development, recognizing the importance of accommodating users across various devices. 
+            While the project posed no significant challenges, I relished in ensuring that the website was well displayed and seamlessly functional across all platforms, resulting in a high-quality product that met and exceeded the client's expectations."
              </h2>
         </div>
 

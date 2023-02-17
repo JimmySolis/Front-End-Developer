@@ -35,10 +35,10 @@ const wtwPage = () => {
 
         <div>
         <h2 className='wtwProbDivH2'>
-            Here we have a project where i was asked to recreate this webite from top to bottom.
-            We wanted to have the weather for each city accessible through The Weather Apps API.
-            I needed to get the lay about and even the gradient color from the example. 
-            I am happy to say I got everything I needed. And even added the icons to represent the days.
+        Here we have a project where I was tasked with fully recreating a website. 
+        Our objective was to provide accessible weather information for each city, which we achieved through The Weather Apps API. 
+        To ensure an accurate recreation, I carefully studied the layout and gradient color scheme of the original website. 
+        I'm pleased to report that I was able to replicate every detail, including adding icons to represent the forecast for each day.
           </h2>
         </div>
 
@@ -48,9 +48,10 @@ const wtwPage = () => {
 
         <div>
             <h2 className='wtwDesDivH2'>
-            The design process for this app was fairly easy. I started by looking at the devTool in chrome.
-            Once I had an idea of how it was done I took it upon myself to set divs in the dementions that I saw resemble the example.
-            After that I changed the viewport size and made sure it would fit well in all the most popular phones out there.   
+            The design process for this app began by analyzing the devTool in Chrome to gain an understanding of the underlying structure. 
+            Following this, I meticulously placed divs in the dimensions that resembled the example layout. 
+            Once the layout was established, I fine-tuned the viewport size to ensure the design was optimized for all popular mobile devices. 
+            This meticulous approach helped ensure that the app is both visually appealing and user-friendly across a range of devices.
             </h2>
         </div>
 

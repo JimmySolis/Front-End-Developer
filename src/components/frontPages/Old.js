@@ -34,11 +34,10 @@ const oldPage = () => {
 
         <div>
         <h2 className='oldProbDivH2'>
-            This was the first time I put together a porfolio. 
-            The task was to show off all of my project I had wored up to in the begnning of my codeing carrer.
-            I was able to have everything in view, utilizing the hover effect to give some more context when viewrs saw my portfolio.
-            Since it was my first time coding a profile I sharpened skills that now seem elementary. 
-            For exapmle, _blanck in a "a tag" or div controlled throught the dom.
+        This was my inaugural attempt at creating a portfolio, which aimed to display all the projects I had completed in the beginning stages of my coding career. 
+        I made sure to present everything in a clear and concise manner, using the hover effect to provide additional context for viewers. 
+        As it was my first time coding a portfolio, I honed my skills, which may now appear elementary. 
+        For instance, I utilized "_blank" in an "a tag" or div controlled through the DOM.
 
           </h2>
         </div>
@@ -49,11 +48,11 @@ const oldPage = () => {
 
         <div>
             <h2 className='oldDesDivH2'>
-            At that time it was challenging because my knowledge of the tools was very poor.
-            However, that challenge help me tremendously since it opened my mind and put me on a wave length that 
-            as long as I am able to create it in my mind it is achievable through research and practice. 
-            I knew the colors were going to be black and yellow, and I wanted it to have the feeling of an old school monitor.
-            So i went with the green for text and a font that seem like retro tec and I was very happy with the results.
+            At the time, the task was challenging for me due to my limited knowledge of the necessary tools. 
+            However, the challenge proved to be tremendously helpful as it opened my mind to the idea that with research and practice, I could achieve anything that I could visualize. 
+            The color scheme was predetermined to be black and yellow, and I aimed to evoke the feeling of an old school monitor. 
+            Therefore, I opted for green text and a retro-style font. 
+            I was highly satisfied with the resulting design.
 
              </h2>
         </div>

@@ -48,7 +48,7 @@ const ListedPage = () => {
       
         <div>
             <h2 className='lisDesDivH2'>
-            For this project, my focus was primarily on the backend functionality, with design taking a secondary role. 
+            For this project, my focus was primarily on the back-end functionality, with design taking a secondary role. 
             My emphasis was on creating lists and individual list items with comprehensive details to accurately identify the desired gift or object. 
             I made sure to include a URL section for easy access to the specific item needed. With the creation of a server page and connection to GraphQL, the development process was smooth and efficient. 
             GraphQL proved to be a highly effective tool in quickly implementing the desired functionality. 

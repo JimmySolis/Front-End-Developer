@@ -77,7 +77,7 @@ const about = () => {
 
                 <div className="linkSection">
 
-                     <h1> GitHub & Linkined </h1>
+                     <h1> GitHub & LinkedIn </h1>
                      <div className="linkDiv">
                     <a href="https://github.com/JimmySolis" target="_blank"> <img src={github} className="picSize"/> </a>
                     <a href="https://www.linkedin.com/in/jimmysoliscoding/" target="_blank"> <img src={linkedin} className="picSize"/></a>

@@ -49,7 +49,7 @@ const TechBlogPage = () => {
         <div>
             <h2 className='tecDesDivH2'>
             For this project, I aimed to create a clean and straightforward user interface.
-            After establishing the necessary routes and backend functionality, I developed a user login/signup page, a homepage displaying all posts, and a profile page where users can create their own posts.
+            After establishing the necessary routes and back-end functionality, I developed a user login/sign-up page, a homepage displaying all posts, and a profile page where users can create their own posts.
             By keeping the design simple and intuitive, I ensured that users could quickly and easily access and engage with the platform's content.
 
             </h2>

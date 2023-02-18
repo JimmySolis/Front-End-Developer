@@ -49,8 +49,8 @@ const mrkPage = () => {
             <h2  className="mrkDesDivH2">
             From the outset, the website's design was envisaged as minimalist, and every decision was made with that principle in mind.
             The color palette was selected with utmost care to complement the simple design with understated hues. 
-            The final outcome garnered the client's admiration, with appreciation for the site's clean and modern aesthetic. 
-            The creation process progressed smoothly, and client satisfaction was achieved by working closely to ensure the vision was realized. </h2>
+            The final outcome garnered the client's admiration with appreciation for the site's clean and modern aesthetic. 
+            The creation process progressed smoothly and client satisfaction was achieved by working closely to ensure the vision was realized. </h2>
         </div>
 
       </div>

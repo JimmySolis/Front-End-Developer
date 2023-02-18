@@ -36,7 +36,8 @@ const mySocialPage = () => {
 
         <div>
         <h2 className='socProbDivH2'> 
-        In this project, I tackled the issue of modifying a database through API calls, which is achieved exclusively through the backend using specific CRUD routes to create, delete, update, and read the data we require. 
+        In this project, I tackled the issue of modifying a database through API calls. 
+        This is achieved exclusively through the back-end using specific CRUD routes to create, delete, update, and read the data we require. 
         For this particular project, I created a route for a social application, enabling users to create a profile, add friends, update their personal information, and create or delete profiles. 
         One of the most challenging aspects of the project was configuring all the dependencies and ensuring that the correct ports were connected to gain access to the MongoDB server.
           </h2>
@@ -51,7 +52,7 @@ const mySocialPage = () => {
             To ensure a structured and organized approach to this project, I started by outlining all the required routes and models on paper. 
             I made sure to have a clear visual of what models I needed to create and how the routes should function. 
             Once I had a plan in place, I proceeded to create the server page and checked the connection to MongoDB. 
-            After that, I completed the necessary models and created the routes to be able to create profiles, add friends, and update user information. 
+            After that, I completed the necessary models and designed the routes to be able to create profiles, add friends, and update user information. 
             Finally, I thoroughly tested all the routes to ensure that they were all functioning as intended. With that, the project was completed.
               </h2>
         </div>
